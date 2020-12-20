@@ -13,5 +13,8 @@ public class App {
 
         Employee employee = new Employee("EMP01", "Sadeesha", "Eranga");
         System.out.println("employee = " + employee);
+
+        Animal dog = new Dog();
+        dog.run();
     }
 }
