@@ -52,6 +52,9 @@
     }
     out.print("</tbody>");
     out.print("</table>");
+
+    out.print("<br>");
+    out.print("<a href=\"login.jsp\">Login</a>");
 %>
 <script>
     $(document).ready( function () {
